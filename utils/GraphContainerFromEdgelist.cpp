@@ -50,8 +50,10 @@ void printGraph(Node * firstNode,int n) {
 //################################    MAIN     ######################################
 
 int main() {
-    
-	int numCases,numNodes,numEdges;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+	
+    int numCases,numNodes,numEdges;
 	fastInput(numCases);
 	for (int j=0;j<numCases;j++) {
 		fastInput(numNodes);
