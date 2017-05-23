@@ -17,3 +17,9 @@ void fastscan(int &number)
     if (negative)
         number *= -1;
 }
+
+int main() {
+    std::ios_base:sync_withstdio(false);
+    cin.tie(NULL);
+
+}
