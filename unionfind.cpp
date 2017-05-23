@@ -1,9 +1,5 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
+#include <bits/stdc++.h>
 using namespace std;
-
 
 struct node {
 	node *father;
@@ -41,4 +37,9 @@ void Union(node &x,node &y) {
 		y = tmp;
 	y.father = &x;
 	y.numNodes += x.numNodes;
+}
+
+int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
 }
