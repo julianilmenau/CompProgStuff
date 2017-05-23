@@ -14,7 +14,6 @@ void dfsvisit(vector<int> *graph,bool *visited,int i) {
 
 }
 
-
 int main() {
 	ios_base::sync_with_stdio(false);
 	int numEdges, edgeStart, edgeEnd,numCases,numNodes;
