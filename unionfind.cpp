@@ -33,6 +33,12 @@ int find(node &pnode) {
 }
 
 void Union(node &x,node &y) {
+	x = find(x);
+	y = find(y);
+	if (y.numNodes > x.numNodes) {
+		node tmp = x;
+		x = y;
+		y = tmp;
 	y.father = &x;
-	y.numNodes+=x.numNodes;
+	y.numNodes += x.numNodes;
 }

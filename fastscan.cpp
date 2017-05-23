@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+
 void fastscan(int &number)
 {
     bool negative = false;
@@ -18,8 +20,13 @@ void fastscan(int &number)
         number *= -1;
 }
 
+using namespace std;
+
 int main() {
-    std::ios_base:sync_withstdio(false);
+    std::ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
+    int number = 0;
+    fastscan(number);
+    cout<<number;
 }
